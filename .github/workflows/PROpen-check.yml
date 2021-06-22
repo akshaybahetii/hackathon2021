@@ -39,7 +39,5 @@ jobs:
           npm install retire
           which retire
           ls
-          retire . > retire.out
-          cat retire.out
 
           
