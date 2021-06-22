@@ -35,8 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           npm install retire
-          cd hackathon2021
           ls
           retire . >> retire.out
+          retire hackathon2021
 
           
