@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
           npm install retire
           ls
-          retire . >> retire.out
+          retire .
           retire hackathon2021
 
           
