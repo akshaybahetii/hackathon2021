@@ -37,6 +37,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           npm install retire
+          which retire
           ls
           retire . > retire.out
           cat retire.out
